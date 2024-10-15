@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhog Shetram</title>
+    <link rel="shortcut icon" href="asset/Bhog.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+   
+
+.container {
+    display: flex;
+    /* this is used add two block in same line */
+    padding-bottom: 400px;
+    background-color: aquamarine;
+    background-image: url(asset/food.webp);
+    background-position:bottom;
+}
+
+.main-content {
+    flex-grow: 1;
+    /* padding: 10px; */
+}
+.main-content img{
+  padding-left: 100px;
+  padding-top: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.main-content h2{
+  font-size: larger;
+  font-family: fantasy;
+}
+.sidebar {
+    width: 700px;
+    /* background-color: #333; */
+    padding: 40px;
+    /* this is container and tab gap */
+}
+
+.sidebar table {
+    text-align: right;;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar table thead th  {
+    margin-bottom: 10px;
+}
+
+.sidebar table thead th a {
+    /* display: block; */
+    color: #0a0101;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.sidebar table thead th a:hover {
+    background-color: #575757;
+}
+
+    </style>
+</head>
+<body>
+  <img src="" alt="">
+    <div class="container">
+        <div class="main-content">
+        
+            <img src="asset/Bhog.png" alt="">
+            <br>
+            <h2>A Bhog Shetram</h2>
+            <h4>Enjoy Every Bite of Food</h4>
+         
+        </div>
+        <div class="sidebar">
+            <table>
+              <thead>
+                <th>
+                    <a href="#home">Home</a>
+                </th>
+                <th><a href="#about">About</a></th>
+                <th><a href="#services">Services</a></th>
+                <th><a href="#contact">Contact</a></th>
+              </thead>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
