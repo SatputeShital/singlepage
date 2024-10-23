@@ -1,0 +1,106 @@
+/* GOOgle font cdn */
+/* font-family: "Dancing Script", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Prociono&display=swap');
+
+
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+#head
+{   display: flex;
+    flex-direction: row;
+    /* margin: 20px auto; */
+    height: 700px;
+    width:100%;
+    border: 1px solid;
+    border-radius: 3px;
+    /* border-color: aquamarine; */
+    background-image: url(asset/homepage-banner-1.jpg);  
+   background-size: cover;
+   background-position:top;
+   /* background-repeat: no-repeat; */
+   
+}
+#logo
+{
+    margin-top: 35px;
+    position: absolute;
+    left: 130px;
+}
+#logo img
+{
+    height: 100px;
+    width: 140px;
+}
+#sidebar
+{
+    position: absolute;
+    right: 30px;
+  
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-evenly; */
+    height: 50px;
+    width:800px ;
+    border: 0px ;
+    /* border-color: ; */
+    border-radius: 2px;
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+    
+}
+#sidebar th{
+   
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 40px;
+    
+}
+#sidebar a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+#sidebar a:hover
+  {
+    color: aqua;
+    text-decoration: underline; /* Add underline back on hover if needed */
+  }
+
+#sidebar #rt
+{
+    position: absolute;
+    right: 30px;
+    padding-right: 40px;
+    height: 40px;
+    width: 120px;
+    border: 2px solid;
+    padding-top: 11px;
+    border-color: aqua;
+    /* background-color: aquamarine; */
+}
+
+#titilename
+{
+    position: absolute;
+    right:550px;
+    top: 260px;
+    
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    color:#ffd100;
+    /* color: blue; */
+}
+h2{
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    color:black;
+}
