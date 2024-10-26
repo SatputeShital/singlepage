@@ -3,7 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Prociono&display=swap');
 
-
+/* Bootstrap ICON CDN */
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 *
 {
     margin:0px;
@@ -194,7 +196,8 @@ h2{
     width:100%;
     border: 1px solid;
     border-radius: 3px;
-    background-color:rgb(255, 255, 254);
+    background-color:rgb(146, 148, 94);
+    overflow:auto; /* Enable horizontal scrolling */
   
 }
 #our_gallery h2
@@ -241,7 +244,7 @@ h2{
     border: 1px solid;
     border-radius: 1px;
     border-color:rgb(86, 87, 53);
-    background-color: rgb(186, 189, 116);
+    background-color:rgb(86, 87, 53);
   
 }
 #upcoming_events h2
@@ -250,7 +253,7 @@ h2{
     text-align: center;
     font-size: 1000;
     text-shadow:5px;
-    color: rgb(57, 58, 35);
+    color: rgb(22, 22, 18);
     /* text-underline-position: below; */
 }
 
@@ -286,7 +289,7 @@ h2{
     border: 1px solid;
     border-radius: 1px;
     border-color:rgb(86, 87, 53);
-    background-color: rgb(252, 252, 250);
+    background-color:rgb(146, 148, 94);
   
 }
 #our_location h2
@@ -319,3 +322,160 @@ h2{
     border: none; /* Removes the border around the iframe */
   }
   
+  /* container ....Address or Contact */
+  #contact
+{
+  display: flex;
+  flex-direction: row;
+    height:350px;
+    width:100%;
+    border: 1px solid;
+    border-radius: 1px;
+    /* border-color:rgb(86, 87, 53); */
+    background-color:rgb(86, 87, 53);
+  
+}
+/* #address_socialmedia
+{
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 400px;
+  width: 200px;
+} */
+
+#address
+{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 600px;
+  border: 4px ;
+  margin-left: 50px ;
+  margin-top: 50px;
+
+  /* background-color: #ffd100; */
+
+}
+
+#address h4
+{
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Prociono", serif;
+  color: rgb(6, 6, 6);
+
+}
+#address p{
+  padding: 10px;
+  color: white;
+}
+
+#social_media
+{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 2px;
+  margin-left: 50px;
+  /* margin-top: 40px; */
+  width: 180px;
+  height: 80px;
+  /* background-color: white; */
+}
+#social_media a
+{
+  color: black;
+  /* margin: 10px; */
+  /* margin-left: 50px; */
+  /* padding: 20px; */
+}
+#social_media .logo
+{
+
+  height: 40px;
+  width: 40px;  
+}
+
+#user_input
+{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* background-color: aquamarine; */
+  height: 280px;
+  width: 600px;
+  border: 4px ;
+  margin-left: 50px ;
+  margin-top: 30px;
+
+}
+#user_input input
+{ 
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Prociono", serif;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 500px;
+  /* background-color: rgb(180, 183, 110); */
+}
+#user_input #msg
+{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Prociono", serif;
+  border-radius: 4px;
+  height: 90px;
+  width: 500px;
+  margin-left: 30px;
+}
+#user_input button
+{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Prociono", serif;
+  border-radius: 4px;
+  height: 40px;
+  width: 504px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Prociono", serif;
+}
+#footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+    height:100px;
+    width:100%;
+    border: 1px solid;
+    border-radius: 1px;
+    /* border-color:rgb(86, 87, 53); */
+    background-color:rgb(176, 178, 118);
+    
+    
+  }
+  #footer p
+  {
+    margin: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Prociono", serif;
+  }
+  #footer img
+  {
+    margin: 10px;
+    height: 70px;
+    width: 80px;
+  }
+
+  
+
+
+
+
+
