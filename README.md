@@ -1,2 +1,2 @@
 # singlepage
-Single page Website Sample
+Single page Website 
